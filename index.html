@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather app</title>
+</head>
+
+<body>
+    <div class="container">
+        <main class="page">
+            <div class="weather">
+                <h2 class="weather__title">Weather App</h2>
+                <div class="header__input input-header">
+                    <input autocomplete="off" type="text" placeholder="Enter city" class="input-header__input">
+                    <button class="input-header__btn">Search</button>
+                </div>
+                <div class="weather__body body-weather">
+                    <div class="body-weather__icon"></div>
+                    <div class="body-weather__temp"></div>
+                    <div class="body-weather__error"></div>
+                    <div class="body-weather__city"></div>
+                    <div class="body-weather__cloud"></div>
+                    <div class="body-weather__bottom weather-bottom">
+                        <div class="weather-bottom__direction"></div>
+                        <div class="weather-bottom__speed"></div>
+                        <div class="weather-bottom__humidity"></div>
+                        <div class="weather-bottom__pressure"></div>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
